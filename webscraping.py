@@ -84,7 +84,7 @@ for index, items in enumerate(scraped_data):
 
     d.append(newElement)
 
-with open('gottenData.csv', 'w', encoding='utf-8') as j:
+with open('GottenStarData.csv', 'w', encoding='utf-8') as j:
     writer = csv.writer(j)
     writer.writerow(headers)
     writer.writerows(d)
